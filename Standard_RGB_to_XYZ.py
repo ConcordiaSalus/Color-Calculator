@@ -15,10 +15,10 @@ def Standard_RGB_to_XYZ ( sR, sG, sB ):
     var_G = var_G * 100
     var_B = var_B * 100
 
-    X = var_R * 0.4124 + var_G * 0.3576 + var_B * 0.1805
-    Y = var_R * 0.2126 + var_G * 0.7152 + var_B * 0.0722
-    Z = var_R * 0.0193 + var_G * 0.1192 + var_B * 0.9505
+    X = var_R * 0.4124564 + var_G * 0.3575761 + var_B * 0.1804375
+    Y = var_R * 0.2126729 + var_G * 0.7151522 + var_B * 0.0721750
+    Z = var_R * 0.0193339 + var_G * 0.1191920 + var_B * 0.9503041
 
     return X, Y, Z
 
-print ( Standard_RGB_to_XYZ( 10, 0, 0) )
+print ( Standard_RGB_to_XYZ( 10, 50, 150 ) )

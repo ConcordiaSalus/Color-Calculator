@@ -27,22 +27,18 @@ __- Yxy_to_XYZ ( Y, x, y )__
 __- XYZ_to_CIE_Lab ( X, Y, Z )__
 
     Reference_X, Y and Z refer to specific illuminants and observers.
-    Common reference values are available below in this same page.
 
 __- CIE_Lab_to_XYZ (CIE_L, CIE_a, CIE_b )__
 
     Reference_X, Y and Z refer to specific illuminants and observers.
-    Common reference values are available below in this same page.
 
 __- XYZ_to_Hunter_Lab ( X, Y, Z )__
 
     Reference_X, Y and Z refer to specific illuminants and observers.
-    Common reference values are available below in this same page.
 
 __- Hunter_Lab_to_XYZ ( Hunter_L, Hunter_a, Hunter_b )__
 
     Reference_X, Y and Z refer to specific illuminants and observers.
-    Common reference values are available below in this same page.
 
 __- RGB_to_CMY ( R, G, B )__
 
@@ -71,3 +67,21 @@ __- HSL_to_RGB ( H, S, L )__
 
     H, S and L input range = 0 ÷ 1.0
     R, G and B output range = 0 ÷ 255
+
+__- RGB_to_HSV ( R, G, B )__
+
+    R, G and B input range = 0 ÷ 255
+    H, S and V output range = 0 ÷ 1.0
+
+__- HSV_to_RGB ( H, S, V )__
+
+    H, S and V input range = 0 ÷ 1.0
+    R, G and B output range = 0 ÷ 255
+
+__- XYZ_to_CIE_Luv ( X, Y, Z )__
+
+    Reference_X, Y and Z refer to specific illuminants and observers.
+
+__- CIE_Luv_to_XYZ ( CIE_L, CIE_u, CIE_v )__
+
+    Reference_X, Y and Z refer to specific illuminants and observers.
