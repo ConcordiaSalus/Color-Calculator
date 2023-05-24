@@ -53,3 +53,11 @@ __- CMY_to_RGB ( C, M, Y )__
 
     C, M and Y input range = 0 ÷ 1.0
     R, G and B output range = 0 ÷ 255
+
+__- CMY_to_CMYK ( C, M, Y, K )__
+
+    C, M, Y and K range = 0 ÷ 1.0
+
+__- CMYK_to_CMY ( C, M, Y, K )__
+
+    C, M, Y and K range = 0 ÷ 1.0
