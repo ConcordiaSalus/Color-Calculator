@@ -85,3 +85,7 @@ __- XYZ_to_CIE_Luv ( X, Y, Z )__
 __- CIE_Luv_to_XYZ ( CIE_L, CIE_u, CIE_v )__
 
     Reference_X, Y and Z refer to specific illuminants and observers.
+
+__- CIE_Lab_to_CIE_LCH ( CIE_L, CIE_a, CIE_b )__
+
+__- CIE_LCH_to_CIE_Lab ( CIE_L, CIE_C, CIE_H )__
