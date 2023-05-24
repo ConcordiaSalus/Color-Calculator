@@ -33,3 +33,13 @@ __- CIE_Lab_to_XYZ (CIE_L, CIE_a, CIE_b )__
 
     Reference-X, Y and Z refer to specific illuminants and observers.
     Common reference values are available below in this same page.
+
+__- XYZ_to_Hunter_Lab ( X, Y, Z )__
+
+    Reference-X, Y and Z refer to specific illuminants and observers.
+    Common reference values are available below in this same page.
+
+__- Hunter-Lab_to_XYZ ( Hunter_L, Hunter_a, Hunter_b )__
+
+    Reference-X, Y and Z refer to specific illuminants and observers.
+    Common reference values are available below in this same page.    
