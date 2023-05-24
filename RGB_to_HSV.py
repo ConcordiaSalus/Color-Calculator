@@ -20,7 +20,7 @@ def RGB_to_HSV ( R, G, B ):
         del_G = ( ( ( var_Max - var_G ) / 6 ) + ( del_Max / 2 ) ) / del_Max
         del_B = ( ( ( var_Max - var_B ) / 6 ) + ( del_Max / 2 ) ) / del_Max
 
-        if      ( var_R == var_Max ): H = del_B - del_G
+        if   ( var_R == var_Max ): H = del_B - del_G
         elif ( var_G == var_Max ): H = ( 1 / 3 ) + del_R - del_B
         elif ( var_B == var_Max ): H = ( 2 / 3 ) + del_G - del_R
 
