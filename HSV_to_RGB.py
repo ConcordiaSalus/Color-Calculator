@@ -12,10 +12,10 @@ def HSV_to_RGB ( H, S, V ):
         var_2 = V * ( 1 - S * ( var_h - var_i ) )
         var_3 = V * ( 1 - S * ( 1 - ( var_h - var_i ) ) )
 
-        if      ( var_i == 0 ):
-                var_r = V
-                var_g = var_3
-                var_b = var_1
+        if ( var_i == 0 ):
+            var_r = V
+            var_g = var_3
+            var_b = var_1
         elif ( var_i == 1 ):
             var_r = var_2
             var_g = V

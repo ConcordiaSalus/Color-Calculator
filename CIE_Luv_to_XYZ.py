@@ -16,7 +16,7 @@ def CIE_Luv_to_XYZ ( CIE_L, CIE_u, CIE_v ):
 
     Y = var_Y * 100
     X =  - ( 9 * Y * var_U ) / ( ( var_U - 4 ) * var_V - var_U * var_V )
-    Z = ( 9 * Y - ( 15 * var_V * Y ) - ( var_V * X ) ) / ( 3 * var_V )
+    Z =    ( 9 * Y - ( 15 * var_V * Y ) - ( var_V * X ) ) / ( 3 * var_V )
 
     return X, Y, Z
 

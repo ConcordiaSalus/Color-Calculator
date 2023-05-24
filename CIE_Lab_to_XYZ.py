@@ -8,11 +8,11 @@ def CIE_Lab_to_XYZ ( CIE_L, CIE_a, CIE_b):
     var_X = CIE_a / 500 + var_Y
     var_Z = var_Y - CIE_b / 200
 
-    if ( var_Y**3  > 0.008856 ): var_Y = var_Y**3
+    if ( var_Y ** 3  > 0.008856 ): var_Y = var_Y ** 3
     else:                       var_Y = ( var_Y - 16 / 116 ) / 7.787
-    if ( var_X**3  > 0.008856 ): var_X = var_X**3
+    if ( var_X ** 3  > 0.008856 ): var_X = var_X ** 3
     else:                       var_X = ( var_X - 16 / 116 ) / 7.787
-    if ( var_Z**3  > 0.008856 ): var_Z = var_Z**3
+    if ( var_Z ** 3  > 0.008856 ): var_Z = var_Z ** 3
     else:                       var_Z = ( var_Z - 16 / 116 ) / 7.787
 
     X = var_X * Reference_X

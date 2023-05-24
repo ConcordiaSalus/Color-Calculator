@@ -7,7 +7,6 @@ def Hue_2_RGB( v1, v2, vH ):
    if ( ( 3 * vH ) < 2 ): return ( v1 + ( v2 - v1 ) * ( ( 2 / 3 ) - vH ) * 6 )
    return ( v1 )
 
-
 def HSL_to_RGB ( H, S, L ):
     if ( S == 0 ):
         R = L * 255
