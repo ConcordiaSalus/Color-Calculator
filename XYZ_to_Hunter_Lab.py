@@ -15,4 +15,4 @@ def XYZ_to_Hunter_Lab ( X, Y, Z ):
 
     return Hunter_L, Hunter_a, Hunter_b
 
-print ( XYZ_to_Hunter_Lab ( 0.500, 1.000, 0.250 ) )
+print ( XYZ_to_Hunter_Lab ( 0.2500, 0.5000, 0.990 ) )
