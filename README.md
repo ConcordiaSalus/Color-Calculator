@@ -1,4 +1,5 @@
 # Color-Calculator
+Convert color data in different color spaces
 
 __- XYZ_to_Standard_RGB ( X, Y, Z )__
 
