@@ -90,3 +90,7 @@ __- CIE_Luv_to_XYZ ( CIE_L, CIE_u, CIE_v )__
 __- CIE_Lab_to_CIE_LCH ( CIE_L, CIE_a, CIE_b )__
 
 __- CIE_LCH_to_CIE_Lab ( CIE_L, CIE_C, CIE_H )__
+
+__- HEX_to_RGB ( HEX )__
+
+__- RGB_to_HEX ( RGB )__
